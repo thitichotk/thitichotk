@@ -20,8 +20,8 @@ web, several of them for Thai users.
 
 | Project | What it is |
 |---|---|
-| **[Thai-Weather](https://github.com/thitichotk/thai-weather)** | Charts daily observations from 127 Thai weather stations next to NOAA's Oceanic Niño Index (Thai interface).<br>[thaiweather.streamlit.app](https://thaiweather.streamlit.app) |
-| **[Flat-Flipbook](https://github.com/thitichotk/flat-flipbook)** | Turns an AnyFlip flipbook into one PDF, for documents whose owner allows downloading (Thai interface).<br>[flatflipbook.streamlit.app](https://flatflipbook.streamlit.app) |
+| **[Thai&#8209;Weather](https://github.com/thitichotk/thai-weather)** | Charts daily observations from 127 Thai weather stations next to NOAA's Oceanic Niño Index (Thai interface).<br>[thaiweather.streamlit.app](https://thaiweather.streamlit.app) |
+| **[Flat&#8209;Flipbook](https://github.com/thitichotk/flat-flipbook)** | Turns an AnyFlip flipbook into one PDF, for documents whose owner allows downloading (Thai interface).<br>[flatflipbook.streamlit.app](https://flatflipbook.streamlit.app) |
 
 Built with TypeScript and JavaScript for the web apps, Python and Streamlit for the internship apps, C++ compiled to
 WebAssembly in Instant-Voxel, and Java at university.
