@@ -1,0 +1,33 @@
+<!doctype html>
+<!-- Regenerate header.jpg: "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless --hide-scrollbars --window-size=1280,400 --force-device-scale-factor=2 --virtual-time-budget=5000 --screenshot=header.png header.html, then: magick header.png -strip -sampling-factor 4:4:4 -quality 86 header.jpg -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anuphan:wght@400;500;600&display=block">
+<style>
+  /* Tokens and grain copied from thitichotk.com (repo me, index.html). */
+  :root { --paper: #f4f0e6; --ink: #3d5588; --red: #f15060; }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { width: 1280px; height: 400px; overflow: hidden; }
+  body { position: relative; background: var(--paper); color: var(--ink); font-family: Anuphan, sans-serif; -webkit-font-smoothing: antialiased; }
+  body::after { content: ""; position: absolute; inset: 0; z-index: 2; pointer-events: none; opacity: .5; mix-blend-mode: multiply;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .45 0 0 0 0 .4 0 0 0 0 .32 0 0 0 .22 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
+  .island { position: absolute; right: -24px; top: -36px; width: 640px; height: 475px;
+    -webkit-mask-image: linear-gradient(90deg, #0000, #000 14% 94%, #0000), linear-gradient(#0000, #000 10% 88%, #0000);
+    -webkit-mask-composite: source-in; }
+  .intro { position: absolute; left: 72px; top: 50%; transform: translateY(-50%); }
+  h1 { font-weight: 600; font-size: 96px; line-height: .95; letter-spacing: -.045em; }
+  .dot { color: var(--red); }
+  .th { margin-top: 22px; font-size: 26px; font-weight: 500; line-height: 1.5; }
+  .role { margin-top: 6px; font-size: 19px; font-weight: 500; letter-spacing: .01em; }
+</style>
+</head>
+<body>
+  <img class="island" src="https://thitichotk.com/poster.webp" alt="">
+  <div class="intro">
+    <h1>Thitichot<br>Kingphaibun<span class="dot">.</span></h1>
+    <p class="th" lang="th">ฐิติโชติ กิ่งไพบูลย์</p>
+    <p class="role">Computer Science Student, Kasetsart University</p>
+  </div>
+</body>
+</html>
